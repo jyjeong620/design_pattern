@@ -1,0 +1,15 @@
+# Project exclude paths
+/.gradle/
+/build/
+/build/classes/java/main/
+
+
+
+### IntelliJ IDEA ###
+.idea/**
+!.idea/saveactions_settings.xml
+*.iws
+*.iml
+*.ipr
+/out/
+*/out/
