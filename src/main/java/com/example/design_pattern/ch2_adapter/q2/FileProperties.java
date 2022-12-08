@@ -1,0 +1,1 @@
+package com.example.design_pattern.ch2_adapter.q2;// FileProperties 클래스를 구현해 보세요.
