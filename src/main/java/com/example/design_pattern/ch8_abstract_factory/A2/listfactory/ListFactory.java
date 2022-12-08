@@ -1,9 +1,10 @@
 package com.example.design_pattern.ch8_abstract_factory.A2.listfactory;
 
-import factory.Factory;
-import factory.Link;
-import factory.Page;
-import factory.Tray;
+
+import com.example.design_pattern.ch8_abstract_factory.A2.factory.Factory;
+import com.example.design_pattern.ch8_abstract_factory.A2.factory.Link;
+import com.example.design_pattern.ch8_abstract_factory.A2.factory.Page;
+import com.example.design_pattern.ch8_abstract_factory.A2.factory.Tray;
 
 public class ListFactory extends Factory {
     @Override

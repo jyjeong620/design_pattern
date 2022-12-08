@@ -1,6 +1,7 @@
 package com.example.design_pattern.ch8_abstract_factory.Sample.listfactory;
 
-import factory.Link;
+
+import com.example.design_pattern.ch8_abstract_factory.Sample.factory.Link;
 
 public class ListLink extends Link {
     public ListLink(String caption, String url) {

@@ -1,6 +1,7 @@
 package com.example.design_pattern.ch15_facade.Sample;
 
-import pagemaker.PageMaker;
+
+import com.example.design_pattern.ch15_facade.Sample.pagemaker.PageMaker;
 
 public class Main {
     public static void main(String[] args) {

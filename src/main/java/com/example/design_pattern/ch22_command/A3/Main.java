@@ -1,11 +1,18 @@
 package com.example.design_pattern.ch22_command.A3;
 
-import command.*;
-import drawer.*;
 
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
+import com.example.design_pattern.ch22_command.A3.command.Command;
+import com.example.design_pattern.ch22_command.A3.command.MacroCommand;
+import com.example.design_pattern.ch22_command.A3.drawer.DrawCanvas;
+import com.example.design_pattern.ch22_command.A3.drawer.DrawCommand;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionAdapter;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
 
 public class Main extends JFrame {
     // 그리기 이력

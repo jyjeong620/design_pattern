@@ -1,7 +1,8 @@
 package com.example.design_pattern.ch6_prototype.Sample;
 
-import framework.Manager;
-import framework.Product;
+
+import com.example.design_pattern.ch6_prototype.Sample.framework.Manager;
+import com.example.design_pattern.ch6_prototype.Sample.framework.Product;
 
 public class Main {
     public static void main(String[] args) {

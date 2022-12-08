@@ -1,7 +1,7 @@
 package com.example.design_pattern.ch8_abstract_factory.Sample.divfactory;
 
-import factory.Item;
-import factory.Tray;
+import com.example.design_pattern.ch8_abstract_factory.Sample.factory.Item;
+import com.example.design_pattern.ch8_abstract_factory.Sample.factory.Tray;
 
 public class DivTray extends Tray {
     public DivTray(String caption) {

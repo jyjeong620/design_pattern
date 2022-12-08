@@ -1,9 +1,7 @@
 package com.example.design_pattern.ch8_abstract_factory.Sample.listfactory;
 
-import factory.Factory;
-import factory.Link;
-import factory.Page;
-import factory.Tray;
+
+import com.example.design_pattern.ch8_abstract_factory.Sample.factory.*;
 
 public class ListFactory extends Factory {
     @Override

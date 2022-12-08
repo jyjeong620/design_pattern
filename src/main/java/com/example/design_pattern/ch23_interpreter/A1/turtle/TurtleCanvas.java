@@ -1,7 +1,6 @@
 package com.example.design_pattern.ch23_interpreter.A1.turtle;
 
-import language.Executor;
-import language.ExecutorFactory;
+import com.example.design_pattern.ch23_interpreter.A1.language.Executor;
 import java.awt.*;
 
 public class TurtleCanvas extends Canvas {

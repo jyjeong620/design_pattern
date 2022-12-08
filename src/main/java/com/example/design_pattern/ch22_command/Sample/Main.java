@@ -1,8 +1,10 @@
 package com.example.design_pattern.ch22_command.Sample;
 
-import command.*;
-import drawer.*;
 
+import com.example.design_pattern.ch22_command.Sample.command.Command;
+import com.example.design_pattern.ch22_command.Sample.command.MacroCommand;
+import com.example.design_pattern.ch22_command.Sample.drawer.DrawCanvas;
+import com.example.design_pattern.ch22_command.Sample.drawer.DrawCommand;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;

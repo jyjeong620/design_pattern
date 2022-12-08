@@ -1,6 +1,7 @@
 package com.example.design_pattern.ch6_prototype.Sample;
 
-import framework.Product;
+
+import com.example.design_pattern.ch6_prototype.Sample.framework.Product;
 
 public class MessageBox implements Product {
     private char decochar;

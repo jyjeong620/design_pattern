@@ -1,8 +1,8 @@
 package com.example.design_pattern.ch18_memento.A4;
 
-import game.Memento;
-import game.Gamer;
 
+import com.example.design_pattern.ch18_memento.A4.game.Gamer;
+import com.example.design_pattern.ch18_memento.A4.game.Memento;
 import java.io.*;
 
 public class Main {

@@ -1,7 +1,8 @@
 package com.example.design_pattern.ch8_abstract_factory.Sample.listfactory;
 
-import factory.Tray;
-import factory.Item;
+
+import com.example.design_pattern.ch8_abstract_factory.Sample.factory.Item;
+import com.example.design_pattern.ch8_abstract_factory.Sample.factory.Tray;
 
 public class ListTray extends Tray {
     public ListTray(String caption) {

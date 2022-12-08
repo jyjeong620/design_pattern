@@ -1,7 +1,9 @@
 package com.example.design_pattern.ch23_interpreter.A1;
 
-import language.*;
-import turtle.*;
+import com.example.design_pattern.ch23_interpreter.A1.language.InterpreterFacade;
+import com.example.design_pattern.ch23_interpreter.A1.language.ParseException;
+import com.example.design_pattern.ch23_interpreter.A1.turtle.TurtleCanvas;
+import com.example.design_pattern.ch23_interpreter.A1.turtle.TurtleExecutorFactory;
 
 import java.awt.*;
 import java.awt.event.*;

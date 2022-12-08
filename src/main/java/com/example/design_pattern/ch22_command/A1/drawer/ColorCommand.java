@@ -1,6 +1,7 @@
 package com.example.design_pattern.ch22_command.A1.drawer;
 
-import command.Command;
+
+import com.example.design_pattern.ch22_command.A1.command.Command;
 import java.awt.Color;
 
 public class ColorCommand implements Command {

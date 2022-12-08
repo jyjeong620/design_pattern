@@ -1,10 +1,10 @@
 package com.example.design_pattern.ch22_command.A1.drawer;
 
-import command.MacroCommand;
 
+import com.example.design_pattern.ch22_command.A1.command.MacroCommand;
+import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Graphics;
-import java.awt.Canvas;
 
 public class DrawCanvas extends Canvas implements Drawable {
     // 그리기 색 

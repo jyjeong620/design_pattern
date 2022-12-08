@@ -1,6 +1,7 @@
 package com.example.design_pattern.ch6_prototype.A1b;
 
-import framework.ConcreteProduct;
+
+import com.example.design_pattern.ch6_prototype.A1b.framework.ConcreteProduct;
 
 public class MessageBox extends ConcreteProduct {
     private char decochar;

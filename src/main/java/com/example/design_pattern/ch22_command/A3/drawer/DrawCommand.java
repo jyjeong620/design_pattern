@@ -1,6 +1,6 @@
 package com.example.design_pattern.ch22_command.A3.drawer;
 
-import command.Command;
+import com.example.design_pattern.ch22_command.A3.command.Command;
 import java.awt.Point;
 
 public class DrawCommand implements Command {

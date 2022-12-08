@@ -1,7 +1,8 @@
 package com.example.design_pattern.ch8_abstract_factory.A2.listfactory;
 
-import factory.Item;
-import factory.Page;
+
+import com.example.design_pattern.ch8_abstract_factory.A2.factory.Item;
+import com.example.design_pattern.ch8_abstract_factory.A2.factory.Page;
 
 public class ListPage extends Page {
     public ListPage(String title, String author) {

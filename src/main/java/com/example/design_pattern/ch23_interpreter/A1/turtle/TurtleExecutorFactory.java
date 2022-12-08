@@ -1,7 +1,8 @@
 package com.example.design_pattern.ch23_interpreter.A1.turtle;
 
-import language.Executor;
-import language.ExecutorFactory;
+
+import com.example.design_pattern.ch23_interpreter.A1.language.Executor;
+import com.example.design_pattern.ch23_interpreter.A1.language.ExecutorFactory;
 
 public class TurtleExecutorFactory implements ExecutorFactory {
     private final TurtleCanvas canvas;

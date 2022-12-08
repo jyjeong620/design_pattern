@@ -1,6 +1,7 @@
 package com.example.design_pattern.ch6_prototype.A2;
 
-import framework.Product;
+
+import com.example.design_pattern.ch6_prototype.A2.framework.Product;
 
 public class UnderlinePen implements Product {
     private char ulchar;
